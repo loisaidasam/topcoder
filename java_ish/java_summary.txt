@@ -1,0 +1,37 @@
+data types:
+file://localhost/Users/sam/Desktop/tutorial/java/nutsandbolts/datatypes.html
+
+arrays:
+file://localhost/Users/sam/Desktop/tutorial/java/nutsandbolts/arrays.html
+
+string to int:
+file://localhost/Users/sam/Desktop/tutorial/java/data/numberclasses.html
+
+readline:
+file://localhost/Users/sam/Desktop/tutorial/essential/io/charstreams.html
+
+command line io:
+file://localhost/Users/sam/Desktop/tutorial/essential/io/cl.html
+
+
+point in a circle:
+In general, x and y must satisfy (x-center_x)^2 + (y - center_y)^2 < radius^2.
+use Math.pow()
+
+random:
+Min + (int)(Math.random() * ((Max - Min) + 1))
+
+tokenizer:
+java.util.StringTokenizer
+http://docs.oracle.com/javase/1.4.2/docs/api/java/util/StringTokenizer.html
+StringTokenizer st = new StringTokenizer("this is a test");
+while (st.hasMoreTokens()) {
+    System.out.println(st.nextToken());
+}
+Constructor Summary
+StringTokenizer(String str) 
+          Constructs a string tokenizer for the specified string.
+StringTokenizer(String str, String delim) 
+          Constructs a string tokenizer for the specified string.
+StringTokenizer(String str, String delim, boolean returnDelims) 
+          Constructs a string tokenizer for the specified string.
